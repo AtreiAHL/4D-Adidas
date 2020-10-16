@@ -54,7 +54,7 @@ class InventoryPage extends React.Component {
         return(
             <div className="shop">
                 <div className="shop__hero">
-                    <h2 className="shop__hero-title">Adidas has done this X and Y for forests and is committed to X and Y</h2>
+                    <h2 className="shop__hero-title">Adidas has done this X and Y for water</h2>
                     <Link to='/' className="shop__hero-causes">
                         <p>[arrow] Check other causes</p>
                     </Link>

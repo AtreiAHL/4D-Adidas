@@ -2,13 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 2vh;
+    padding: 1.5vh 5vw;
+
+    &__icon {
+        height: 3vh;
+
+    }
 
     &__link {
 
         &-logo {
-            height: 5vh;
-            padding: 0 5vw 0 16vw;
+            height: 4vh;
+            padding: 0 6vw 0 15vw;
         }
 
     }

@@ -5,7 +5,7 @@ import LandingPage from './components/LandingPage/LandingPage';
 import InventoryPage from './components/InventoryPage/InventoryPage';
 import Cart from './components/Cart/Cart';
 import Marketing from './components/Marketing/Marketing';
-import './App.css';
+import './App.scss';
 
 class App extends React.Component {
   render()

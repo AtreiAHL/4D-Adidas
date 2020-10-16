@@ -12,15 +12,15 @@ import bag from '../../assets/Icons/Cart.svg';
 function Header() {
     return(
         <div className="header">
-            <img src={hamburger} alt="hamburger" className="header__hamburger"/>
-            <img src={heart} alt="heart" className="header__heart"/>
+            <img src={hamburger} alt="hamburger" className="header__icon"/>
+            <img src={heart} alt="heart" className="header__icon"/>
             <Link to='/' className='header__link'>
                 <img src={logo} alt="" className="header__link-logo"/>
             </Link>
-            <img src={person} alt="person" className="header__person"/>
-            <img src={search} alt="search" className="header__search"/>
+            <img src={person} alt="person" className="header__icon"/>
+            <img src={search} alt="search" className="header__icon"/>
             <Link to='/cart' className='header__link'>
-                <img src={bag} className="header__bag"/>
+                <img src={bag} className="header__icon"/>
             </Link>
         </div>
     );
