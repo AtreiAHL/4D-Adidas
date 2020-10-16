@@ -1,0 +1,118 @@
+p {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+.cart {
+    padding: 1.5vh 5vw;
+
+
+    &__total {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid black;
+        padding-bottom: 3.25vh;
+        margin-bottom: 2vh;
+
+        &-amount{
+            &-header {
+                margin: 0;
+            }
+
+            &-price {
+                margin: 0;
+            }
+
+        }
+
+        &-button {
+            background-color: black;
+            color: white;
+            width: 55vw;
+            height: 6vh;
+            padding-right: 26vw;
+        }
+    }
+
+    &__stats {
+        width: 100%;
+        padding-bottom: 3.5vh;
+    }
+
+    &__card {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 4.5vh;
+
+        &-image {
+            background-color: black;
+            width: 160px;
+            height: 160px;
+        }
+
+        &-text {
+            display: flex;
+            flex-direction: column;
+            width: 49vw;
+        }
+
+        &-info {
+            display: flex;
+
+        }
+    }
+
+    &__promo {
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5vh 3vw;
+
+        &-text {
+            color: grey;
+            margin: 0;
+        }
+    }
+
+    &__order {
+        font-size: 1rem;
+
+        &-summary {
+            padding-bottom: 2vh;
+
+            &-item {
+                display: flex;
+                justify-content: space-between;
+
+                &:nth-child(4) {
+                    font-weight: 700;
+                }
+
+                &-head {
+                    font-size: 0.9rem;
+                    padding-bottom: 1.5vh;
+                }
+
+                &-price {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+
+    &__form {
+        width: 100%;
+    }
+
+    &__bottom-button {
+        background-color: black;
+        color: white;
+        width: 55vw;
+        height: 6vh;
+        width: 100%;
+        margin-top: 2vh;
+    }
+}

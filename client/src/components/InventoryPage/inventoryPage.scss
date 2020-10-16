@@ -1,0 +1,79 @@
+.shop{
+    overflow: hidden;
+
+    &__hero-image{
+        height:50vh;
+    }
+    &__hero-title{
+        width:70%;
+        margin-left: 10vw;
+        margin-top:-20rem;
+        color:white;
+    }
+    &__hero-causes{
+        visibility: hidden;
+        width:70%;
+        margin-top:-15rem;
+        color:white;
+        text-decoration: none;
+        font-size:1rem;
+
+        &-p{
+            margin-left: 10vw;
+        }
+    }
+    &__hero-items{
+        color:white;
+        display:flex;
+        justify-self: center;
+        font-size:1rem;
+        margin-top: 4vh;
+        visibility: hidden;
+    }
+    &__list-header{
+        margin-left:auto;
+        margin-top:5rem;
+        visibility: hidden;
+    }
+    &__card-title{
+        margin-bottom:0;
+    }
+    &__card{
+        display:flex;
+        flex-direction: column;
+    }
+    &__card-type{
+        margin-top:2%;
+        font-size:0.75rem;
+    }
+    &__card-subtitle{
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-start;
+        font-size:1rem;
+        align-items: center;
+    }
+    &__card-price{
+        margin-right:5%;
+    }
+    &__card-size{
+        height:3vh;
+    }
+    &__card-colour{
+        font-size:.75rem;
+        margin-right:5%;
+    }
+    &__card-button {
+        display:flex;
+        flex-direction: row;
+        background-color: black;
+        margin-left:auto;
+        margin-right:auto;
+        color: white;
+        width: 25vw;
+        height: 3vh;
+        padding-right: 26vw;
+        margin-top:5%;
+        margin-bottom:5%;
+    }
+}
