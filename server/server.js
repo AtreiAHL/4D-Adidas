@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 
 //send data from products page to cart
 app.post('/', (req, res) => {
+    console.log(req.body)
     const inventory =  JSON.parse(fs.readFileSync('./data/cart.json'));
     inventory.push(req.body);
     fs.writeFileSync('./data/cart.json', JSON.stringify(inventory), null, 2);
